@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AWS Generative AI Meetup Agenda
+
+A modern web application built with Next.js and TypeScript to manage and display AWS Generative AI Meetup agendas. This project provides an interactive interface for organizing and viewing meetup schedules and content.
+
+## Features
+
+- Modern, responsive UI built with React and Tailwind CSS
+- Interactive agenda management
+- Real-time updates with Next.js
+- TypeScript for enhanced type safety and developer experience
+- Customizable components using class-variance-authority and tailwind-merge
+
+## Prerequisites
+
+Before you begin, ensure you have installed:
+- Node.js (Latest LTS version recommended)
+- npm or yarn package manager
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/aws-generative-ai-meetup-agenda.git
+cd aws-generative-ai-meetup-agenda
+```
 
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/app` - Next.js application routes and pages
+- `/components` - Reusable React components
+- `/lib` - Utility functions and shared logic
+- `/public` - Static assets
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js 15.2.4
+- React 19
+- TypeScript
+- Tailwind CSS
+- class-variance-authority
+- lucide-react for icons
+- TailwindMerge for dynamic class composition
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Development
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The project uses several development tools:
+- ESLint for code linting
+- TypeScript for static type checking
+- Tailwind CSS for styling
+- Turbopack for fast development builds
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
